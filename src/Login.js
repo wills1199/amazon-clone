@@ -40,7 +40,7 @@ function Login() {
         />
       </Link>
 
-      <div class="login__container">
+      <div className="login__container">
         <h1>Sign-in</h1>
         <form>
           <h5>E-mail</h5>
@@ -52,7 +52,7 @@ function Login() {
         <p>
             By continuing, you agree to Amazon's Conditions of Use and Privacy Notice. 
         </p>
-        <button oncClick={register} className="login__registerButton">Create your Amazon account</button>
+        <button onClick={register} className="login__registerButton">Create your Amazon account</button>
       </div>
     </div>
   )
